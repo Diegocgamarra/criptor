@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  background-color: #F3F5FC;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #F3F5FC;
+  height: 100%;
+}
+
+.main {
+  font-family: inter, Arial, sans-serif;
+  background-color: #F3F5FC;
+  margin-right: 30px;
+}
+
+#img-logo {
+  width: 40px;
+  padding: 40px;
+
+}
+
+#content-left {
+  padding-left: 100px;
+  width: 70%;
+}
+
+#text-area-one {
+  font-family: inter, Arial, sans-serif;
+  font-size: 14px;
+  color: #0A3871;
+  width: 500px;
+  height: 300px;
+
+  border: none;
+  background-color: #F3F5FC;
+}
+
+#text-area-two {
+  font-family: inter, Arial, sans-serif;
+  font-size: 14px;
+  color: #0A3871;
+  border: none;
+  height: 300px;
+
+}
+
+#input-text::placeholder {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #0A3871;
+}
+
+#info {
+
+  font-size: 9px;
+}
+
+#buttons {
+  padding-top: 10px;
+}
+
+#buttons button {
+  font-family: inter, Arial, sans-serif;
+  padding: 7px 26px;
+  border-style: solid;
+  border-color: #0A3871;
+  border-radius: 24px;
+}
+
+#cripto {
+  color: #F3F5FC;
+  background: #0A3871;
+  border-radius: 24px;
+}
+
+#decripto {
+  background: #D8DFE8;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+  border-radius: 24px;
+}
+
+#copy {
+  background: #D8DFE8;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+  border-radius: 24px;
+  padding: 7px 26px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  margin-top: 20px;
+  padding: 100px 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+#inspect {
+  width: 336px;
+}
+
+h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #343A40;
+}
+
+#alert-digit {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #495057;
+}
+
+footer {
+  padding-left: 40px;
+  font-family: inter, Arial, sans-serif;
+  font-size: 8px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/index.css">
+  <title>CODR | Criptografe seus textos! </title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="main">
+      <div class="header">
+        <img src="img/logo.png" alt="logo" id="img-logo">
+      </div>
+      <div id="content-left">
+        <textarea type="text" class="textarea" id="text-area-one">Insira seu texto aqui.</textarea>
+        <div id="info">
+          <p>Apenas letras minusculas e sem acento</p>
+        </div>
+        <div id="buttons">
+          <button id="cripto">Criptografar</button>
+          <button id="decripto">Descriptografar</button>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div id="initial-elements">
+        <img src="img/inspect.svg" alt="imagem ilustrativa" id="inspect">
+        <h3>Nenhuma mensagem encontrada</h3>
+        <p id="alert-digit">Digite um texto que você deseja criptografar ou descriptografar</p>
+      </div>
+      <textarea class="textarea" id="text-area-two"></textarea>
+      <button id="copy">Copiar</button>
+    </div>
+  </div>
+  <footer>
+    Desenvolvido por Diego Gamarra
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/cripto.js"></script>
+</body>
+
+</html>
